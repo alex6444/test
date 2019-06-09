@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="java.js"></script>
+
+    <title>Alex Jansen's Portfolio</title>
+</head>
+<body>
+
+
+    
+<!-- take you back to top of the page -->
+
+
+<!-- might edit the "Personalised Web Design, for You, by a Local", I need to show that it's done here at home and is not exported over seas -->
+    <div class="jumbotron">
+        <h1 class="banner">Alex Jansens Portfolio</h1>
+        <p class="banner">A young programmer with years of experince</p>
+    </div>
+
+<!-- this is the navigation bar that takes you all across the page, for now it will be a single page design, but i might change this later to multiple pages -->
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark fixed-top ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#whatWeCanProvide">What I can do</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#aboutMe">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#pastWork">Past Work</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contactMe">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+<!-- full width image of canberra, for now it'll just be a random image (need to get jenn to get a nice photo of the whole of Canberra) -->
+
+  <img src="images/canberraPhoto.jpg" alt="" class="canberraImage">
+  
+
+<!-- now to make some cards showing what i can do  -->
+
+<h1 class="mainHeadings" id="whatWeCanProvide">What I can do</h1>
+
+<div class="container"style="padding-bottom: 5%">
+    <div class="row">
+      <div class="col whatIcanDoCards">
+          <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="images/cards/blogging-blur-communication-261662.jpg" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">I can create full websites using WordPress</p>
+              </div>
+            </div>
+      </div>
+      <div class="col whatIcanDoCards">
+          <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="images/cards/design-development-electronics-326424.jpg" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">I can make full Websites using HTML, CSS and JavaScript as well as play around with simple bits of PHP (this website is make using HTML and CSS)</p>
+              </div>
+            </div>
+      </div>
+      <div class="col whatIcanDoCards">
+          <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="images/cards/gadgets-iphone-laptop-163143.jpg" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">I can make full apps for Android and IOS</p>
+              </div>
+            </div>
+      </div>
+    </div>
+
+      <div class="row">
+        <div class="col whatIcanDoCards">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/cards/taylor-vick-1612625-unsplash.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">I can use the bootstrap frame work to create websites (this website is made using bootstrap)</p>
+                </div>
+              </div>
+        </div>
+        <div class="col whatIcanDoCards">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/cards/max-nelson-492729-unsplash.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">I am comfortable with both C++ and C#</p>
+                </div>
+              </div>
+        </div>
+        <div class="col whatIcanDoCards">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/cards/ask-blackboard-356079.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Want to know more? Jump to the about me section</p>
+                  <a href="#aboutMe" class="btn btn-primary" target="blank">About Me</a>
+                </div>
+              </div>
+        </div>
+      </div>
+</div>
+
+
+<!-- page break -->
+
+<img src="images/wideShotCanberraPageBreak.jpg" class="canberraImage">
+
+<!-- About me -->
+
+<h1 class = "mainHeadingAboutMe" id = "aboutMe">About Me</h1>
+<p class = "aboutMeSubHeading">(enter the password I provided to see the about me)</p>
+
+  <input type="password" placeholder="Password" onkeyup="check_password (this);" class="password">
+
+
+
+  <p class= "paragraphs"></p>
+
+  <div id="hidden_div" style="display: none;"></br> 
+    <p class = "paragraphs"><em>Welcome to about me!</em></p>
+
+
+    <p class="paragraphs">I am a young, dedicated programmer and have been developing my skills over the last seven years whilst also working with small to medium businesses to build them a website that suits their needs but also look good for customers and is easy to use.
+    </br>
+    </br>
+    Throughout my education I have been taught how to create websites, IOS apps and games and I have also been self teaching to improve my skills and broaden my horizons. Currently, I am studying at the Academy of Interactive Entertainment (AIE) enrolled in a two year diploma. Information below:
+    </br>
+    </br>
+    <a href="https://aie.edu.au/course/game-programming/" class="btn btn-primary" target="blank">Click here for more about the course</a>
+    </br>  
+    </br>
+    I was previously enjoyed by a small speech pathology business as their general IT support and to maintain their database. In that time I also created their current website that can be viewed <a href = "https://eatspeaklearn.com.au/" target = "blank">here</a>. I am also in the process of creating a current Facebook message bot, the bot will take them through the process of making an appointment or getting in contact with them.
+    </br>
+    </br>
+    I also have experience in creating simple video games, as I created one last December to ask out my partner. All previous and current work can be viewed below.
+    </br>
+    </br>
+    My ultimate goal is to eventually use my technology skills to create a real difference in the world.
+    </p>
+  
+  
+  
+  </div>
+
+<!-- showing past work section -->
+
+<h1 class = "mainHeadingPastWork" id = "pastWork">Past Work</h1>
+
+<h2 class = "subHeadings">Websites</h2>
+
+<!-- cards for past work -->
+
+<div class="container" style="padding-bottom: 5%">
+  <div class="row">
+    <div class="col">
+      <a href="https://www.computing.net.au/" target="blank"><img src="images/logos/CCSNewLogo.PNG" alt="ccs logo" style="width: 80%"></a>
+      <h2>Christian's Computing Services</h2>
+      <a href="https://www.computing.net.au/" class="btn btn-primary" target="blank">Go To CCS</a>
+    </div>
+    <div class="col">
+      <a href="https://eatspeaklearn.com.au/" target="blank"><img src="images/logos/EatSpeakLearnLogo.png" alt="ccs logo" style="width: 80%"></a>
+      <h2>Eat Speak Learn</h2>
+      <a href="https://eatspeaklearn.com.au/" class="btn btn-primary" target="blank">Go To Eat Speak Learn</a>
+    </div>
+    <div class="col">
+      <img src="images/logos/parkManagmentSystemsLogo.png" alt="ccs logo" style=" width: 80%">
+      <h2>Park Managment Systems</h2>
+      <p>Coming Soon</p>
+    </div>
+  </div>
+</div>
+
+<!-- cards for games I've made -->
+
+<h2 class = "subHeadingsGames">Games</h2>
+<div class="container" style="padding-bottom: 5%">
+  <div class="row">
+    <div class="col">
+      <h2>Phaser Game </br>(Asking My Partner out)</h2>
+      <a href="phaserGame.html" class="btn btn-primary" target="blank">Go To Game</a>
+    </div>
+  </div>
+</div> 
+
+<!-- cards for school work (git Hub) -->
+
+<h2 class = "subHeadingsGames">AIE games/Projects</h2>
+<div class="container" style="padding-bottom: 5%">
+  <div class="row">
+    <div class="col">
+      <h2>Tic Tac Toe</h2>
+      <a href="https://github.com/alex6444/Tic-Tac-Toe" class="btn btn-primary" target="blank">Go to repository</a>
+    </div>
+  <div class="col">
+      <h2>Battle Squares</h2>
+      <a href="https://github.com/alex6444/Battle-Squares" class="btn btn-primary" target="blank">Go to repository</a>
+    </div>
+  </div>
+</div> 
+
+
+
+
+<!-- contact us -->
+<div id = "contactMe"></div>
+<div class="card mb-3" >
+  <img class="card-img-top" src="images/contactUsCanberraPhoto.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Contact Me</h5>
+    <p class="card-text">Click Below to send me a quick email with how you'd like to get in contact with me!</p>
+    <a href="mailto:alex@jansen.net.au?subject=Having A Chat " class="btn btn-primary">Email Me</a>
+  </div>
+</div>
+
+</body>
+</html>
