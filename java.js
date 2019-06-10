@@ -4,7 +4,7 @@ function check_password (input_element) {
     var password = input_element.value;
     
     //check value and show/hide the div
-    if (password == 'helloWorld')
+    if (password == 'helloGuest')
         
         document.getElementById ('hidden_div').style.display = 'block';
 
