@@ -1,0 +1,125 @@
+body {
+
+    padding-top: 4%;
+    background-color: lightgrey;
+    height: 100%;
+
+    scroll-behavior: smooth;
+}
+
+.banner {
+
+    text-align: center;
+    margin-top: 0;
+}
+
+.jumbotron {
+
+    margin-bottom: 0%;
+    background-color: lightgrey;
+
+}
+
+.canberraImage {
+
+    width: 100%;
+    height: 50%;
+
+} 
+
+.mainHeadings {
+
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 5%;
+
+}
+
+.col {
+
+    text-align: center;
+}
+
+h2 {
+    font-size: 125%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.paragraphs {
+
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.card-body {
+
+    text-align: center;
+    color: navy;
+
+}
+
+
+.aboutMeSubHeading {
+
+    text-align: center;
+
+}
+
+.subHeadings {
+
+    text-align: center;
+    font-style: italic;
+    padding-top: 2%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+.hiddenMessage{
+    text-align: center;
+    font-style: italic;
+    margin-top: 0;
+    padding-bottom: 2em;
+}
+
+.mainHeadingAboutMe {
+
+    text-align: center;
+    padding-bottom: 0%;
+    padding-top: 5%;
+
+}
+
+.mainHeadingPastWork {
+
+    text-align: center;
+    padding-bottom: 0%;
+    padding-top: 5%;
+
+}
+
+.subHeadingsGames {
+
+    text-align: center;
+    font-style: italic;
+    padding-top: 0%;
+    
+}
+
+.password {
+
+    display: block;
+    margin: 0 auto;
+
+}
+
+.jennList{
+    padding-top: 2em;
+    padding-left: 0;
+    margin-left: 0;
+    font-style: italic;
+    font-size: 1.5em;
+}
